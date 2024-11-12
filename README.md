@@ -1,4 +1,4 @@
-# Interactive Example of Delaunay Triangulation in Ebitengine
+# Interactive Demo of the Delaunay Triangulation in Ebitengine
 
 This example uses Ebitengine to demonstrate the Delaunay Triangulation algorithm.
 
