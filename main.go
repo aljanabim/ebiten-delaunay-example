@@ -60,19 +60,6 @@ func (g *Game) Layout(outsideWidth, outsideHeight int) (int, int) {
 }
 
 func main() {
-	// var points []delaunay.Point
-	// points = append(points, delaunay.Point{X: 0, Y: 0})
-	// points = append(points, delaunay.Point{X: 1, Y: 0})
-	// points = append(points, delaunay.Point{X: 1, Y: 1})
-	// points = append(points, delaunay.Point{X: 0, Y: 1})
-	// points = append(points, delaunay.Point{X: 0, Y: 0})
-	// start := time.Now()
-	// fmt.Println("Took", time.Since(start))
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-	// fmt.Println(points)
-	// fmt.Printf("%+v", triangulation.Triangles)
 	g := &Game{}
 	ebiten.SetWindowSize(1000, 600)
 	ebiten.SetWindowTitle("Test Delaunay Triangulation")
